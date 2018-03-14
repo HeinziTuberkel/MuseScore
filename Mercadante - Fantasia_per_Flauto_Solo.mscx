@@ -15630,6 +15630,15 @@
             <tpc>19</tpc>
             </Note>
           </Chord>
+        <StaffText>
+          <lid>7177</lid>
+          <pos x="0.66232" y="-3.53656"/>
+          <color r="255" g="0" b="0" a="255"/>
+          <size>12</size>
+          <bold>1</bold>
+          <foregroundColor r="255" g="0" b="0" a="255"/>
+          <text>!</text>
+          </StaffText>
         <Chord>
           <lid>2770</lid>
           <durationType>16th</durationType>
@@ -15639,8 +15648,11 @@
             </Articulation>
           <Note>
             <lid>2771</lid>
-            <pitch>72</pitch>
-            <tpc>14</tpc>
+            <Accidental>
+              <subtype>sharp</subtype>
+              </Accidental>
+            <pitch>73</pitch>
+            <tpc>21</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -24526,6 +24538,13 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
+        <StaffText>
+          <lid>7176</lid>
+          <style>System</style>
+          <text>Abweichungen von der Vorlage:
+  Allegro alla Polacca, T 28: C# statt C
+</text>
+          </StaffText>
         <Rest>
           <lid>4500</lid>
           <durationType>quarter</durationType>
@@ -51635,6 +51654,15 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <lid>7177</lid>
+            <pos x="0.49574" y="-3.70314"/>
+            <color r="255" g="0" b="0" a="255"/>
+            <size>12</size>
+            <bold>1</bold>
+            <foregroundColor r="255" g="0" b="0" a="255"/>
+            <text>!</text>
+            </StaffText>
           <Chord>
             <lid>2770</lid>
             <durationType>16th</durationType>
@@ -51644,8 +51672,11 @@
               </Articulation>
             <Note>
               <lid>2771</lid>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
+              <Accidental>
+                <subtype>sharp</subtype>
+                </Accidental>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -54077,6 +54108,10 @@
           <Slur id="641">
             <lid>4716</lid>
             <track>0</track>
+            <SlurSegment no="0">
+              <o2 x="-2.4987" y="-2.16554"/>
+              <o3 x="-1.99896" y="-0.832901"/>
+              </SlurSegment>
             </Slur>
           <Chord>
             <lid>3245</lid>
@@ -56920,6 +56955,12 @@
           <Slur id="666">
             <lid>4740</lid>
             <track>0</track>
+            <SlurSegment no="0">
+              <o1 x="-0.49027" y="0"/>
+              <o3 x="-0.245135" y="-0.898828"/>
+              <o4 x="-0.469347" y="-0.318552"/>
+              <pos x="0" y="-0.666321"/>
+              </SlurSegment>
             </Slur>
           <Chord>
             <lid>3819</lid>
@@ -60539,6 +60580,14 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <lid>7176</lid>
+            <pos x="-101.114" y="11.492"/>
+            <style>System</style>
+            <text>Abweichungen von der Vorlage:
+  Allegro alla Polacca, T 28: C# statt C
+</text>
+            </StaffText>
           <Rest>
             <lid>4500</lid>
             <durationType>quarter</durationType>
@@ -72758,6 +72807,13 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <lid>7176</lid>
+            <style>System</style>
+            <text>Abweichungen von der Vorlage:
+  Allegro alla Polacca, T 28: C# statt C
+</text>
+            </StaffText>
           <Rest>
             <lid>7133</lid>
             <durationType>quarter</durationType>
