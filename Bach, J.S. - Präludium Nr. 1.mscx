@@ -2006,8 +2006,8 @@
         </Measure>
       <Measure number="12">
         <Harmony>
-          <root>17</root>
-          <name>dim</name>
+          <root>13</root>
+          <name>7</name>
           </Harmony>
         <Beam id="67">
           </Beam>
@@ -2344,8 +2344,8 @@
         </Measure>
       <Measure number="14">
         <Harmony>
-          <root>14</root>
-          <name>7</name>
+          <root>15</root>
+          <name>°</name>
           </Harmony>
         <Beam id="79">
           </Beam>
@@ -2516,7 +2516,6 @@
       <Measure number="15">
         <Harmony>
           <root>16</root>
-          <name>7</name>
           </Harmony>
         <Beam id="85">
           </Beam>
