@@ -126,7 +126,7 @@
           </Articulation>
         <Channel>
           <program value="73"/>
-          <controller ctrl="7" value="83"/>
+          <controller ctrl="7" value="127"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -154,7 +154,7 @@
           <linkedMain/>
           <style>Lyricist</style>
           <offset x="0.282335" y="0.141168"/>
-          <text>Lutz Kutscher, v.0.5</text>
+          <text>Lutz Kutscher, v.1.0</text>
           </Text>
         </VBox>
       <Measure>
@@ -175,7 +175,7 @@
               </Groups>
             </TimeSig>
           <Tempo>
-            <tempo>1.66667</tempo>
+            <tempo>2</tempo>
             <linkedMain/>
             <offset x="-6.35021" y="-3.85025"/>
             <text>Allegro Affettuoso</text>
@@ -3514,8 +3514,9 @@
         <voice>
           <StaffText>
             <linkedMain/>
+            <style>Expression</style>
             <placement>below</placement>
-            <offset x="-0.45" y="2.24953"/>
+            <offset x="0" y="2.53568"/>
             <text>dolce</text>
             </StaffText>
           <Chord>
@@ -10945,6 +10946,7 @@
             <Articulation>
               <subtype>ornamentTurn</subtype>
               <linkedMain/>
+              <offset x="4.40833" y="-0.688801"/>
               </Articulation>
             <Note>
               <linkedMain/>
@@ -14634,7 +14636,7 @@
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>0.833333</tempo>
+            <tempo>0.966667</tempo>
             <linkedMain/>
             <offset x="-7.12021" y="-3.25025"/>
             <text>Larghetto Cantabile</text>
@@ -16664,6 +16666,10 @@
           <Chord>
             <linkedMain/>
             <durationType>32nd</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>86</pitch>
@@ -17391,6 +17397,16 @@
           <Chord>
             <linkedMain/>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>74</pitch>
@@ -17404,6 +17420,24 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -17441,6 +17475,14 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>74</pitch>
@@ -17454,6 +17496,17 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                <linkedMain/>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -17491,6 +17544,14 @@
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <linkedMain/>
               <pitch>74</pitch>
@@ -17546,7 +17607,7 @@
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>1.66667</tempo>
+            <tempo>1.5</tempo>
             <linkedMain/>
             <text>Allegro agitato</text>
             </Tempo>
@@ -17650,6 +17711,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>81</pitch>
@@ -17688,6 +17753,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>81</pitch>
@@ -17974,6 +18043,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>81</pitch>
@@ -18012,6 +18085,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>81</pitch>
@@ -18274,6 +18351,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>77</pitch>
@@ -18431,6 +18512,10 @@
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>77</pitch>
@@ -18589,6 +18674,11 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>0</velocity>
+            <linkedMain/>
+            </Dynamic>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -18711,6 +18801,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>77</pitch>
@@ -18824,6 +18918,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>79</pitch>
@@ -18937,6 +19035,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>81</pitch>
@@ -18974,6 +19076,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>79</pitch>
@@ -20096,6 +20202,12 @@
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <linkedMain/>
+            <style>Expression</style>
+            <placement>below</placement>
+            <text>dolce</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -20250,6 +20362,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -20530,6 +20646,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -21416,6 +21536,18 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -21564,6 +21696,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -23615,6 +23754,11 @@
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <linkedMain/>
+            </Dynamic>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -23661,6 +23805,11 @@
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            <linkedMain/>
+            </Dynamic>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -23777,6 +23926,10 @@
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>76</pitch>
@@ -23849,6 +24002,10 @@
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>76</pitch>
@@ -24533,6 +24690,10 @@
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>77</pitch>
@@ -24570,6 +24731,10 @@
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>76</pitch>
@@ -24861,6 +25026,10 @@
               <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
               </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>77</pitch>
@@ -24898,6 +25067,10 @@
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>76</pitch>
@@ -25319,6 +25492,10 @@
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>77</pitch>
@@ -25480,6 +25657,11 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>0</velocity>
+            <linkedMain/>
+            </Dynamic>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -25586,7 +25768,7 @@
             <accidental>2</accidental>
             </KeySig>
           <Tempo>
-            <tempo>1.96667</tempo>
+            <tempo>1.83333</tempo>
             <linkedMain/>
             <offset x="-1.65313" y="-2.55117"/>
             <text>maggiore</text>
@@ -25673,6 +25855,12 @@
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <linkedMain/>
+            <style>Expression</style>
+            <placement>below</placement>
+            <text>dolce</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -25742,6 +25930,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -26042,6 +26234,10 @@
               <subtype>articStaccatoAbove</subtype>
               <linkedMain/>
               </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>85</pitch>
@@ -26090,6 +26286,10 @@
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <linkedMain/>
+              </Articulation>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
               <linkedMain/>
               </Articulation>
             <Note>
@@ -26838,6 +27038,18 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -26986,6 +27198,13 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -29624,6 +29843,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>74</pitch>
@@ -29737,6 +29960,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>76</pitch>
@@ -29850,6 +30077,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>78</pitch>
@@ -29963,6 +30194,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>79</pitch>
@@ -30117,6 +30352,10 @@
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -30179,6 +30418,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -30245,6 +30488,10 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>78</pitch>
@@ -30300,6 +30547,11 @@
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <linkedMain/>
+            </Dynamic>
           <Beam>
             </Beam>
           <Chord>
@@ -30521,6 +30773,19 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                <fractions>-1/16</fractions>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
@@ -30648,6 +30913,14 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/16</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -35127,8 +35400,8 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
         <voice>
           <StaffText>
             <linkedMain/>
+            <style>Expression</style>
             <placement>below</placement>
-            <offset x="-0.15" y="1.94952"/>
             <text>dolce</text>
             </StaffText>
           <Chord>
@@ -36305,6 +36578,16 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
         </Measure>
       <Measure>
         <voice>
+          <Chord>
+            <linkedMain/>
+            <durationType>16th</durationType>
+            <grace16/>
+            <Note>
+              <linkedMain/>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
           <Beam>
             </Beam>
           <Chord>
@@ -41179,17 +41462,6 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>1</subtype>
-              <linkedMain/>
-              </HairPin>
-            <next>
-              <location>
-                <fractions>1/12</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -41203,13 +41475,6 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-1/12</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -45831,12 +46096,18 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <linkedMain/>
-            <placement>below</placement>
-            <offset x="-0.3" y="4.49977"/>
-            <text>cres</text>
-            </StaffText>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -45922,6 +46193,13 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
             <velocity>96</velocity>
             <linkedMain/>
             </Dynamic>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -46031,6 +46309,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
             <linkedMain/>
             <durationType>eighth</durationType>
             </Rest>
+          <Dynamic>
+            <subtype>pp</subtype>
+            <velocity>33</velocity>
+            <linkedMain/>
+            </Dynamic>
           <Beam>
             </Beam>
           <Chord>
@@ -46289,6 +46572,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Dynamic>
+            <subtype>sf</subtype>
+            <velocity>0</velocity>
+            <linkedMain/>
+            </Dynamic>
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
@@ -46936,6 +47224,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>70</pitch>
@@ -47005,6 +47297,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
             <linkedMain/>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>77</pitch>
@@ -47097,6 +47393,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
           <Chord>
             <linkedMain/>
             <durationType>16th</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <Spanner type="Tie">
@@ -48605,6 +48905,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>82</pitch>
@@ -48788,6 +49092,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>86</pitch>
@@ -48843,6 +49151,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>82</pitch>
@@ -48934,6 +49246,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>82</pitch>
@@ -48989,6 +49305,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>82</pitch>
@@ -49051,6 +49371,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>82</pitch>
@@ -49106,6 +49430,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>82</pitch>
@@ -49171,6 +49499,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>82</pitch>
@@ -49226,6 +49558,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>82</pitch>
@@ -49288,6 +49624,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>82</pitch>
@@ -49343,6 +49683,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>82</pitch>
@@ -49938,6 +50282,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>84</pitch>
@@ -49976,6 +50324,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>84</pitch>
@@ -50265,6 +50617,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>84</pitch>
@@ -50303,6 +50659,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>84</pitch>
@@ -50958,6 +51318,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>84</pitch>
@@ -51074,6 +51438,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>86</pitch>
@@ -51187,6 +51555,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>88</pitch>
@@ -51285,6 +51657,18 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>3</subtype>
+              <endText></endText>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -51300,6 +51684,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>89</pitch>
@@ -51363,6 +51751,13 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -52532,6 +52927,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -52787,6 +53186,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -55354,6 +55757,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>82</pitch>
@@ -55426,6 +55833,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>82</pitch>
@@ -56740,6 +57151,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>84</pitch>
@@ -56778,6 +57193,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>84</pitch>
@@ -56810,6 +57229,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>81</pitch>
@@ -57108,10 +57531,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
             <Note>
               <linkedMain/>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>71</pitch>
-              <tpc>7</tpc>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -57128,6 +57551,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
           <KeySig>
             <accidental>2</accidental>
             </KeySig>
+          <Dynamic>
+            <subtype>p</subtype>
+            <velocity>49</velocity>
+            <linkedMain/>
+            </Dynamic>
           <Beam>
             </Beam>
           <Chord>
@@ -57905,6 +58333,12 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <linkedMain/>
+            <style>Expression</style>
+            <placement>below</placement>
+            <text>dolce</text>
+            </StaffText>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -57974,6 +58408,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -58186,6 +58624,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <linkedMain/>
+            </Dynamic>
           <Chord>
             <linkedMain/>
             <durationType>quarter</durationType>
@@ -58242,6 +58685,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -58430,6 +58877,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>86</pitch>
@@ -58450,6 +58901,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>83</pitch>
@@ -58484,6 +58939,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>81</pitch>
@@ -58511,6 +58970,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
           <Chord>
             <linkedMain/>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>81</pitch>
@@ -60546,6 +61009,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>74</pitch>
@@ -60644,6 +61111,18 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -60659,6 +61138,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>76</pitch>
@@ -60757,6 +61240,13 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -60772,6 +61262,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>78</pitch>
@@ -60885,6 +61379,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>79</pitch>
@@ -61056,6 +61554,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -61118,6 +61620,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <Accidental>
@@ -61176,6 +61682,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              <linkedMain/>
+              </Articulation>
             <Note>
               <linkedMain/>
               <pitch>78</pitch>
@@ -61321,6 +61831,18 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <HairPin>
+              <subtype>2</subtype>
+              <endText></endText>
+              <linkedMain/>
+              </HairPin>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -61401,6 +61923,13 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -61724,6 +62253,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
         </Measure>
       <Measure>
         <voice>
+          <Dynamic>
+            <subtype>f</subtype>
+            <velocity>96</velocity>
+            <linkedMain/>
+            </Dynamic>
           <Beam>
             </Beam>
           <Chord>
@@ -61737,6 +62271,7 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
             </Chord>
           <Chord>
             <linkedMain/>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -61744,10 +62279,9 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Beam>
-            </Beam>
           <Chord>
             <linkedMain/>
+            <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
@@ -62712,7 +63246,7 @@ Fl.2 S2 T28: im Original ein F statt A
               </linked>
             <style>Lyricist</style>
             <offset x="0.282353" y="0.141177"/>
-            <text>Lutz Kutscher, v.0.5</text>
+            <text>Lutz Kutscher, v.1.0</text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
@@ -62738,7 +63272,7 @@ Fl.2 S2 T28: im Original ein F statt A
                 </Groups>
               </TimeSig>
             <Tempo>
-              <tempo>1.66667</tempo>
+              <tempo>2</tempo>
               <linked>
                 </linked>
               <text>Allegro Affettuoso</text>
@@ -66516,8 +67050,8 @@ Fl.2 S2 T28: im Original ein F statt A
             <StaffText>
               <linked>
                 </linked>
+              <style>Expression</style>
               <placement>below</placement>
-              <offset x="-0.45" y="1.49999"/>
               <text>dolce</text>
               </StaffText>
             <Chord>
@@ -79143,7 +79677,7 @@ Fl.2 S2 T28: im Original ein F statt A
               <sigD>4</sigD>
               </TimeSig>
             <Tempo>
-              <tempo>0.833333</tempo>
+              <tempo>0.966667</tempo>
               <linked>
                 </linked>
               <text>Larghetto Cantabile</text>
@@ -81460,6 +81994,11 @@ Fl.2 S2 T28: im Original ein F statt A
               <linked>
                 </linked>
               <durationType>32nd</durationType>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -82308,6 +82847,17 @@ Fl.2 S2 T28: im Original ein F statt A
               <linked>
                 </linked>
               <durationType>half</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -82323,6 +82873,25 @@ Fl.2 S2 T28: im Original ein F statt A
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -82366,6 +82935,14 @@ Fl.2 S2 T28: im Original ein F statt A
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -82381,6 +82958,18 @@ Fl.2 S2 T28: im Original ein F statt A
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <Slur>
+                  <linked>
+                    </linked>
+                  </Slur>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -82424,6 +83013,14 @@ Fl.2 S2 T28: im Original ein F statt A
               <linked>
                 </linked>
               <durationType>quarter</durationType>
+              <Spanner type="Slur">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <Note>
                 <linked>
                   </linked>
@@ -82487,7 +83084,7 @@ Fl.2 S2 T28: im Original ein F statt A
               <sigD>4</sigD>
               </TimeSig>
             <Tempo>
-              <tempo>1.66667</tempo>
+              <tempo>1.5</tempo>
               <linked>
                 </linked>
               <text>Allegro agitato</text>
@@ -82602,6 +83199,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -82643,6 +83245,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -82960,6 +83567,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -83001,6 +83613,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -83291,6 +83908,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -83469,6 +84091,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </prev>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -83648,6 +84275,12 @@ Fl.2 S2 T28: im Original ein F statt A
                 <tpc>14</tpc>
                 </Note>
               </Chord>
+            <Dynamic>
+              <subtype>sf</subtype>
+              <velocity>0</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -83784,6 +84417,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -83908,6 +84546,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -84032,6 +84675,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -84072,6 +84720,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -85332,6 +85985,13 @@ Fl.2 S2 T28: im Original ein F statt A
           </Measure>
         <Measure>
           <voice>
+            <StaffText>
+              <linked>
+                </linked>
+              <style>Expression</style>
+              <placement>below</placement>
+              <text>dolce</text>
+              </StaffText>
             <Chord>
               <linked>
                 </linked>
@@ -85502,6 +86162,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -85809,6 +86474,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -86819,6 +87489,19 @@ Fl.2 S2 T28: im Original ein F statt A
           </Measure>
         <Measure>
           <voice>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>2</subtype>
+                <endText></endText>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -86983,6 +87666,13 @@ Fl.2 S2 T28: im Original ein F statt A
           </Measure>
         <Measure>
           <voice>
+            <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -89292,6 +89982,12 @@ Fl.2 S2 T28: im Original ein F statt A
           </Measure>
         <Measure>
           <voice>
+            <Dynamic>
+              <subtype>f</subtype>
+              <velocity>96</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -89343,6 +90039,12 @@ Fl.2 S2 T28: im Original ein F statt A
           </Measure>
         <Measure>
           <voice>
+            <Dynamic>
+              <subtype>p</subtype>
+              <velocity>49</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -89471,6 +90173,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </prev>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -89551,6 +90258,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </prev>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -90323,6 +91035,11 @@ Fl.2 S2 T28: im Original ein F statt A
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -90363,6 +91080,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </prev>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -90686,6 +91408,11 @@ Fl.2 S2 T28: im Original ein F statt A
                 <linked>
                   </linked>
                 </Articulation>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -90726,6 +91453,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </prev>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -91195,6 +91927,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </prev>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -91378,6 +92115,12 @@ Fl.2 S2 T28: im Original ein F statt A
                 <tpc>14</tpc>
                 </Note>
               </Chord>
+            <Dynamic>
+              <subtype>sf</subtype>
+              <velocity>0</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -91498,7 +92241,7 @@ Fl.2 S2 T28: im Original ein F statt A
               <accidental>2</accidental>
               </KeySig>
             <Tempo>
-              <tempo>1.96667</tempo>
+              <tempo>1.83333</tempo>
               <linked>
                 </linked>
               <text>maggiore</text>
@@ -91592,6 +92335,13 @@ Fl.2 S2 T28: im Original ein F statt A
           </Measure>
         <Measure>
           <voice>
+            <StaffText>
+              <linked>
+                </linked>
+              <style>Expression</style>
+              <placement>below</placement>
+              <text>dolce</text>
+              </StaffText>
             <Chord>
               <linked>
                 </linked>
@@ -91667,6 +92417,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -92005,6 +92760,11 @@ Fl.2 S2 T28: im Original ein F statt A
                 <linked>
                   </linked>
                 </Articulation>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -92058,6 +92818,11 @@ Fl.2 S2 T28: im Original ein F statt A
               <durationType>eighth</durationType>
               <Articulation>
                 <subtype>articStaccatoAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
                 <linked>
                   </linked>
                 </Articulation>
@@ -92917,6 +93682,19 @@ Fl.2 S2 T28: im Original ein F statt A
           </Measure>
         <Measure>
           <voice>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>2</subtype>
+                <endText></endText>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -93081,6 +93859,13 @@ Fl.2 S2 T28: im Original ein F statt A
           </Measure>
         <Measure>
           <voice>
+            <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -96062,6 +96847,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -96186,6 +96976,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -96310,6 +97105,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -96434,6 +97234,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -96605,6 +97410,11 @@ Fl.2 S2 T28: im Original ein F statt A
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -96674,6 +97484,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -96749,6 +97564,11 @@ Fl.2 S2 T28: im Original ein F statt A
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -96813,6 +97633,12 @@ Fl.2 S2 T28: im Original ein F statt A
           </Measure>
         <Measure>
           <voice>
+            <Dynamic>
+              <subtype>f</subtype>
+              <velocity>96</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -97057,6 +97883,20 @@ Fl.2 S2 T28: im Original ein F statt A
                 <tpc>16</tpc>
                 </Note>
               </Chord>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>2</subtype>
+                <endText></endText>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/16</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -97199,6 +98039,14 @@ Fl.2 S2 T28: im Original ein F statt A
           </Measure>
         <Measure>
           <voice>
+            <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/16</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -98028,7 +98876,7 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
               </linked>
             <style>Lyricist</style>
             <offset x="0.282353" y="0.141177"/>
-            <text>Lutz Kutscher, v.0.5</text>
+            <text>Lutz Kutscher, v.1.0</text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
@@ -98054,7 +98902,7 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                 </Groups>
               </TimeSig>
             <Tempo>
-              <tempo>1.66667</tempo>
+              <tempo>2</tempo>
               <linked>
                 <location>
                   <staves>-1</staves>
@@ -102508,8 +103356,8 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
             <StaffText>
               <linked>
                 </linked>
+              <style>Expression</style>
               <placement>below</placement>
-              <offset x="-0.3" y="2.24999"/>
               <text>dolce</text>
               </StaffText>
             <Chord>
@@ -103853,6 +104701,18 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
           </Measure>
         <Measure>
           <voice>
+            <Chord>
+              <linked>
+                </linked>
+              <durationType>16th</durationType>
+              <grace16/>
+              <Note>
+                <linked>
+                  </linked>
+                <pitch>69</pitch>
+                <tpc>17</tpc>
+                </Note>
+              </Chord>
             <Chord>
               <linked>
                 </linked>
@@ -109404,18 +110264,6 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                 <tpc>17</tpc>
                 </Note>
               </Chord>
-            <Spanner type="HairPin">
-              <HairPin>
-                <subtype>1</subtype>
-                <linked>
-                  </linked>
-                </HairPin>
-              <next>
-                <location>
-                  <fractions>1/12</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -109432,13 +110280,6 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                 <tpc>16</tpc>
                 </Note>
               </Chord>
-            <Spanner type="HairPin">
-              <prev>
-                <location>
-                  <fractions>-1/12</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -114680,13 +115521,19 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
           </Measure>
         <Measure>
           <voice>
-            <StaffText>
-              <linked>
-                </linked>
-              <placement>below</placement>
-              <offset x="-1.88976e-07" y="3.14999"/>
-              <text>cres</text>
-              </StaffText>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>2</subtype>
+                <endText></endText>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -114789,6 +115636,13 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                 </linked>
               <offset x="0" y="0"/>
               </Dynamic>
+            <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -114922,7 +115776,7 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
               <sigD>4</sigD>
               </TimeSig>
             <Tempo>
-              <tempo>0.833333</tempo>
+              <tempo>0.966667</tempo>
               <linked>
                 <location>
                   <staves>-1</staves>
@@ -114935,6 +115789,12 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                 </linked>
               <durationType>eighth</durationType>
               </Rest>
+            <Dynamic>
+              <subtype>pp</subtype>
+              <velocity>33</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -115226,6 +116086,12 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                 <tpc>17</tpc>
                 </Note>
               </Chord>
+            <Dynamic>
+              <subtype>sf</subtype>
+              <velocity>0</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -115528,6 +116394,9 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                 <Slur>
                   <linked>
                     </linked>
+                  <SlurSegment no="0">
+                    <o1 x="0.113851" y="1.13851"/>
+                    </SlurSegment>
                   </Slur>
                 <next>
                   <location>
@@ -115962,6 +116831,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -116040,6 +116914,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                 </linked>
               <dots>1</dots>
               <durationType>quarter</durationType>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -116142,6 +117021,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
               <linked>
                 </linked>
               <durationType>16th</durationType>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -117832,6 +118716,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </prev>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -118036,6 +118925,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -118099,6 +118993,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -118201,6 +119100,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </prev>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -118263,6 +119167,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </prev>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -118332,6 +119241,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </prev>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -118394,6 +119308,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </prev>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -118466,6 +119385,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </prev>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -118528,6 +119452,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </prev>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -118597,6 +119526,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </prev>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -118659,6 +119593,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </prev>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -118776,7 +119715,7 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
               <sigD>4</sigD>
               </TimeSig>
             <Tempo>
-              <tempo>1.66667</tempo>
+              <tempo>1.5</tempo>
               <linked>
                 <location>
                   <staves>-1</staves>
@@ -119345,6 +120284,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -119386,6 +120330,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -119706,6 +120655,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -119747,6 +120701,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -120483,6 +121442,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -120610,6 +121574,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -120734,6 +121703,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -120843,6 +121817,19 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
           </Measure>
         <Measure>
           <voice>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>3</subtype>
+                <endText></endText>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -120858,6 +121845,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -120927,6 +121919,13 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
           </Measure>
         <Measure>
           <voice>
+            <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -122232,6 +123231,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -122514,6 +123518,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -125406,6 +126415,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -125486,6 +126500,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -126953,6 +127972,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -126994,6 +128018,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -127028,6 +128057,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -127364,10 +128398,10 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                 <linked>
                   </linked>
                 <Accidental>
-                  <subtype>accidentalFlat</subtype>
+                  <subtype>accidentalSharp</subtype>
                   </Accidental>
-                <pitch>71</pitch>
-                <tpc>7</tpc>
+                <pitch>73</pitch>
+                <tpc>21</tpc>
                 </Note>
               </Chord>
             <Rest>
@@ -127383,7 +128417,7 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
               <accidental>2</accidental>
               </KeySig>
             <Tempo>
-              <tempo>1.96667</tempo>
+              <tempo>1.83333</tempo>
               <linked>
                 <location>
                   <staves>-1</staves>
@@ -127391,6 +128425,12 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                 </linked>
               <text>maggiore</text>
               </Tempo>
+            <Dynamic>
+              <subtype>p</subtype>
+              <velocity>49</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -128275,6 +129315,13 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
           </Measure>
         <Measure>
           <voice>
+            <StaffText>
+              <linked>
+                </linked>
+              <style>Expression</style>
+              <placement>below</placement>
+              <text>dolce</text>
+              </StaffText>
             <Chord>
               <linked>
                 </linked>
@@ -128350,6 +129397,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -128586,6 +129638,12 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
           </Measure>
         <Measure>
           <voice>
+            <Dynamic>
+              <subtype>f</subtype>
+              <velocity>96</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -128648,6 +129706,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -128853,6 +129916,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </prev>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -128875,6 +129943,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -128912,6 +129985,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -128941,6 +130019,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
               <linked>
                 </linked>
               <durationType>eighth</durationType>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -131224,6 +132307,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -131333,6 +132421,19 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
           </Measure>
         <Measure>
           <voice>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>2</subtype>
+                <endText></endText>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -131348,6 +132449,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -131457,6 +132563,13 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
           </Measure>
         <Measure>
           <voice>
+            <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -131472,6 +132585,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -131596,6 +132714,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -131785,6 +132908,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -131854,6 +132982,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -131919,6 +133052,11 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
                     </location>
                   </next>
                 </Spanner>
+              <Articulation>
+                <subtype>articAccentAbove</subtype>
+                <linked>
+                  </linked>
+                </Articulation>
               <Note>
                 <linked>
                   </linked>
@@ -132084,6 +133222,19 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
           </Measure>
         <Measure>
           <voice>
+            <Spanner type="HairPin">
+              <HairPin>
+                <subtype>2</subtype>
+                <endText></endText>
+                <linked>
+                  </linked>
+                </HairPin>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  </location>
+                </next>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -132176,6 +133327,13 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
           </Measure>
         <Measure>
           <voice>
+            <Spanner type="HairPin">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  </location>
+                </prev>
+              </Spanner>
             <Chord>
               <linked>
                 </linked>
@@ -132547,6 +133705,12 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
           </Measure>
         <Measure>
           <voice>
+            <Dynamic>
+              <subtype>f</subtype>
+              <velocity>96</velocity>
+              <linked>
+                </linked>
+              </Dynamic>
             <Chord>
               <linked>
                 </linked>
@@ -132561,6 +133725,7 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
             <Chord>
               <linked>
                 </linked>
+              <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
               <Note>
                 <linked>
@@ -132572,6 +133737,7 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
             <Chord>
               <linked>
                 </linked>
+              <BeamMode>mid</BeamMode>
               <durationType>eighth</durationType>
               <Note>
                 <linked>
