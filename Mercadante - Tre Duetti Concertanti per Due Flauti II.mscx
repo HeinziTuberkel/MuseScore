@@ -32631,8 +32631,8 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
             <durationType>quarter</durationType>
             <Note>
               <linkedMain/>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -100243,8 +100243,8 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
               <Note>
                 <linked>
                   </linked>
-                <pitch>64</pitch>
-                <tpc>18</tpc>
+                <pitch>65</pitch>
+                <tpc>13</tpc>
                 </Note>
               </Chord>
             <Chord>
