@@ -154,7 +154,7 @@
           <linkedMain/>
           <style>Lyricist</style>
           <offset x="0.282335" y="0.141168"/>
-          <text>Lutz Kutscher, v.1.0</text>
+          <text>Lutz Kutscher, v.1.01</text>
           </Text>
         </VBox>
       <Measure>
@@ -4821,8 +4821,8 @@
             <durationType>16th</durationType>
             <Note>
               <linkedMain/>
-              <pitch>80</pitch>
-              <tpc>22</tpc>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -63246,7 +63246,7 @@ Fl.2 S2 T28: im Original ein F statt A
               </linked>
             <style>Lyricist</style>
             <offset x="0.282353" y="0.141177"/>
-            <text>Lutz Kutscher, v.1.0</text>
+            <text>Lutz Kutscher, v.1.01</text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
@@ -68524,8 +68524,8 @@ Fl.2 S2 T28: im Original ein F statt A
               <Note>
                 <linked>
                   </linked>
-                <pitch>80</pitch>
-                <tpc>22</tpc>
+                <pitch>81</pitch>
+                <tpc>17</tpc>
                 </Note>
               </Chord>
             <Chord>
@@ -98876,7 +98876,7 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
               </linked>
             <style>Lyricist</style>
             <offset x="0.282353" y="0.141177"/>
-            <text>Lutz Kutscher, v.1.0</text>
+            <text>Lutz Kutscher, v.1.01</text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
