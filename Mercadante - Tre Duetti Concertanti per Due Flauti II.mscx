@@ -7024,8 +7024,11 @@
             <grace4/>
             <Note>
               <linkedMain/>
-              <pitch>88</pitch>
-              <tpc>18</tpc>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>87</pitch>
+              <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -14624,6 +14627,9 @@
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -46294,6 +46300,9 @@ Fl.1 S1.T83: Der doppelte Takstrich hat im Original kein Wiederholungszeichen
             <linkedMain/>
             <durationType>quarter</durationType>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -71041,8 +71050,11 @@ Fl.2 S2 T28: im Original ein F statt A
               <Note>
                 <linked>
                   </linked>
-                <pitch>88</pitch>
-                <tpc>18</tpc>
+                <Accidental>
+                  <subtype>accidentalFlat</subtype>
+                  </Accidental>
+                <pitch>87</pitch>
+                <tpc>11</tpc>
                 </Note>
               </Chord>
             <Chord>
