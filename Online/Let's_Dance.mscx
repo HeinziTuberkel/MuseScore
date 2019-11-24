@@ -91,7 +91,7 @@
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source">https://musescore.com/score/5152068</metaTag>
+    <metaTag name="source">https://musescore.com/user/18666336/scores/5859545</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">Let's Dance</metaTag>
@@ -156,7 +156,7 @@
           </Text>
         <Text>
           <style>Subtitle</style>
-          <text>Jazzchor Freiburg - Klarinetten-Intro und begleitung</text>
+          <text>Jazzchor Freiburg 1995 - Klarinetten-Intro und begleitung</text>
           </Text>
         </VBox>
       <Measure>
@@ -171,6 +171,7 @@
           <SystemText>
             <swing unit="eighth" ratio= "60"/>
             <style>Tempo</style>
+            <offset x="-5.97321" y="-0.927885"/>
             <text>Swing</text>
             </SystemText>
           <Tempo>
@@ -187,6 +188,7 @@
             <name>m7</name>
             </Harmony>
           <StaffText>
+            <offset x="-9.18956" y="0.901098"/>
             <text>Intro</text>
             </StaffText>
           <Beam>
@@ -880,7 +882,8 @@
             <durationType>quarter</durationType>
             </Rest>
           <StaffText>
-            <text>Begleitung (... demnächst)</text>
+            <offset x="2.91003" y="-4.45948"/>
+            <text>Begleitung (... work in progress)</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>

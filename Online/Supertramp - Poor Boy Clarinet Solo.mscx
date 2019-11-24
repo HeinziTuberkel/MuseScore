@@ -19,15 +19,15 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="composer"></metaTag>
+    <metaTag name="composer">Rick Davies (Solo by John Helliwell)</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-11-23</metaTag>
-    <metaTag name="lyricist"></metaTag>
+    <metaTag name="lyricist">Rick Davies</metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="source"></metaTag>
+    <metaTag name="source">https://musescore.com/user/18666336/scores/5859516</metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">Poor Boy Clarinet Solo</metaTag>
@@ -100,14 +100,16 @@
         <height>10</height>
         <Text>
           <style>Title</style>
-          <text>Poor Boy Clarinet Solo</text>
+          <offset x="-0.810468" y="1.89109"/>
+          <text>Poor Boy (Clarinet Solo)</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Rick Davies (Solo by John Helliwell)</text>
           </Text>
         </VBox>
       <Measure>
         <voice>
-          <KeySig>
-            <accidental>0</accidental>
-            </KeySig>
           <TimeSig>
             <sigN>4</sigN>
             <sigD>4</sigD>
