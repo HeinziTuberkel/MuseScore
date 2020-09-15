@@ -788,6 +788,9 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -1807,6 +1810,9 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -3184,6 +3190,9 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -3559,8 +3568,11 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>74</pitch>
-              <tpc>16</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
               </Note>
             </Chord>
           <Rest>
@@ -3688,8 +3700,8 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>72</pitch>
-              <tpc>14</tpc>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -3993,6 +4005,9 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
